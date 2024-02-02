@@ -1,5 +1,4 @@
 
-
 .header__inner{
     display: flex;
     justify-content: space-between;
@@ -10,6 +9,20 @@
 
 .logo{
     margin-bottom: 35px;
+}
+
+.menu__btn{
+    display: none;
+    width: 40px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu__btn span{
+    background-color: #000;
+    height: 2px;
+    width: 100%;
 }
 
 .menu__list{
@@ -29,4 +42,76 @@
 
 .userActions__itemSearch{
     margin-left: 80px;
+}
+
+
+@media (max-width: 1000px) {
+    .userActions__itemSearch{
+        margin-left: 30px;
+    }
+    .menu{
+        margin-right: auto;
+    }
+    .menu__list{
+        margin-left: 60px;
+    }
+    .logo{
+        margin-bottom: 0;
+    }
+    .header__inner{
+        min-height: auto;
+    }
+
+}
+
+@media (max-width: 860px) {
+    .menu__list{
+        display: none;
+    }
+    .menu__btn{
+        display: flex;
+    }
+    .menu{
+        order: -1;
+        margin-right: 0;
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: 154px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__inner{
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media (max-width: 680px) {
+    .header__inner{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo{
+        margin-right: 80px;
+    }
+    .logo img{
+        width: 40px;
+    }
+}
+
+@media (max-width: 360px) {
+    .header__inner{
+        padding: 10px 0;
+    }
+    .logo{
+        margin-right: 50px;
+    }
+    .userActions__itemSearch{
+        margin-left: 0;
+    }
 }

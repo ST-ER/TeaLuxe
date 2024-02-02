@@ -1,7 +1,7 @@
 .top{
     background-image: url(../../../public/images/top-bg.jpg);
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: bottom left;
     background-size: cover;
 }
 
@@ -28,4 +28,37 @@
     margin-bottom: 48px;
     max-width: 560px;
     line-height: normal;
+}
+
+@media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 680px) {
+    .top__title{
+        font-size: 40px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 360px) {
+    .top__inner{
+        min-height: 367px       ;
+    }
+    .top__title{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .top__text{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
 }

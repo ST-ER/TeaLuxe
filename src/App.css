@@ -12,6 +12,10 @@ a{
     text-decoration: none;
     color: inherit;
 }
+button{
+    padding: 0;
+    border: none;
+}
 
 ul{
     list-style: none;
@@ -31,6 +35,13 @@ body{
     font-weight: 300;
     /* font-family: 'Cormorant', serif; */
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 680px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 /* Header */
@@ -65,3 +76,18 @@ body{
     margin-left: 80px;
 } */
 
+/* @media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 360px) {
+    
+} */

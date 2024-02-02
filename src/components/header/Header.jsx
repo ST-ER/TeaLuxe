@@ -12,6 +12,7 @@ return (
                     <img src='images/logo.svg' alt='TealuxE' />
                 </a>
                 <nav className={style.menu}>
+                    <button className={style.menu__btn}><span></span><span></span><span></span><span></span></button>
                     <ul className={style.menu__list}>
                         <li className={style.menu__item}>
                             <a href='#' className={style.menu__link}>
