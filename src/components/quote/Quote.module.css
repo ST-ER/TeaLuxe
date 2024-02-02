@@ -1,0 +1,9 @@
+.blockquote__text{
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: normal;
+    max-width: 704px;
+    margin: 150px auto;
+}

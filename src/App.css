@@ -33,7 +33,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.header__inner{
+/* Header */
+/* .header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,4 +63,5 @@ body{
 
 .user-actions__item-search{
     margin-left: 80px;
-}
+} */
+
